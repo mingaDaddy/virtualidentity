@@ -30,7 +30,7 @@ excludeIntern <- "s195_57836336e4b08f6fae1aa455"
 entryPages <- QueueRanked(reportSuiteId,
                                     dateFrom,
                                     dateTo,
-                                    metric="pageviews",
+                                    metric="visits",
                                     element="page",
                                     top = topEntryPages,
                                     segment.id = c(segment_visits_monthly,
