@@ -51,4 +51,4 @@ l.df <- lapply(ls(pattern="pathing[0-9]+"), function(x) get(x))
 nextPagesdf <- do.call("rbind", l.df)
 
 # Save dataframe to Excel File
-wirte.xlsx2(nextPagesdf, "nextpages.xlsx")
+write.xlsx2(nextPagesdf, "nextpages.xlsx")
