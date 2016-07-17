@@ -1,7 +1,7 @@
 # Configuration:
 reportSuiteId <- "X"
-userAPI <- "videntity:Infineon"
-secretAPI <- "96e5996f10561cff0ee292b010bf86c6"
+userAPI <- "X"
+secretAPI <- "X"
 dateFrom <- "2016-06-01" # YYYY-mm-dd
 dateTo <- "2016-06-30" # YYYY-mm-dd
 topPages <- "1000" # Number of next pages to get (max. 10000)
@@ -26,7 +26,7 @@ segment_visits_monthly <- "537c0396e4b074a3c232e5d6"
 excludeIntern <- "s195_57836336e4b08f6fae1aa455"
 
 # CSV File with pages for whom we want the nextPages info
-nextPagesFor <- read.csv("C:/Test/5/prod.csv", header = F, sep = ";")
+nextPagesFor <- read.csv("C:/Test/5/prod.csv", header = F, sep = ";") #Doubleckeck working directory
 
 # For Loop - Creates a new API Request for every page
 for (i in 1:nrow(nextPagesFor)){
